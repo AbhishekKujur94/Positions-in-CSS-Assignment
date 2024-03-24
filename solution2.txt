@@ -1,0 +1,20 @@
+ Absolute Positioning:
+
+-With absolute positioning, an element is positioned relative to its nearest positioned ancestor. If there's no positioned ancestor it's positioned relative to the initial containing block, which is usually the viewport.
+
+-When you set an element's position to absolute, you can then use properties like top, bottom, left, and right to specify its exact location relative to its containing block.
+
+-Absolute positioning removes the element from the normal flow of the document. Other elements ignore the space it would have occupied.
+
+-This positioning is commonly used when you want to precisely place elements in specific locations on a page, regardless of surrounding content.
+
+
+ Relative Positioning:
+
+-Relative positioning, on the other hand, positions an element relative to its normal position in the document flow.
+
+-When you set an element's position to relative, it remains in the normal flow of the document, but you can adjust its position using properties like top, bottom, left, and right.
+
+-Unlike absolute positioning, surrounding elements still respect the space that a relatively positioned element would have occupied if it were not moved.
+
+-Relative positioning is often used when you want to nudge an element slightly from its default position or when you want to layer elements on top of each other.
